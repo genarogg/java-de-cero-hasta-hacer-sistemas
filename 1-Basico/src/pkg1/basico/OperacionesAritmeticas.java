@@ -1,5 +1,7 @@
 package pkg1.basico;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Genarogg
@@ -29,4 +31,19 @@ public class OperacionesAritmeticas {
         System.out.println("el resultado de la suma es: " + mult);
         System.out.println("el resultado de la suma es: " + divi);
     }
+    
+     public static void main(String[]args){
+        Scanner s1 = new Scanner(System.in);
+        OperacionesAritmeticas datos = new OperacionesAritmeticas();
+        
+        double n1 = s1.nextDouble();
+        double n2 = s1.nextDouble();
+      
+        double suma = datos.suma(n1, n2);
+        double resta = datos.resta(n1, n2);
+        double mult = datos.mult(n1, n2);
+        double divi = datos.div(n1, n2);
+        
+        datos.imprecion(suma, resta, mult, divi);
+    } 
 }
