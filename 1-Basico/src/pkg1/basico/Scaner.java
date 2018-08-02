@@ -1,10 +1,12 @@
 package pkg1.basico;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Genarogg
  */
-import java.util.Scanner;
+
 
 public class Scaner {
     public static void main(String[]args){
