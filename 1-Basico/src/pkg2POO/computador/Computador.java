@@ -1,4 +1,4 @@
-package pkg2.poo.computador;
+package pkg2POO.computador;
 
 /**
  *

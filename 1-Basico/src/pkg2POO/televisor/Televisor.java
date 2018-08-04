@@ -1,4 +1,4 @@
-package pkg2.poo.televisor;
+package pkg2POO.televisor;
 
 /**
  *

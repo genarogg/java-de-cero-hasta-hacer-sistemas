@@ -1,4 +1,4 @@
-package pkg1.basico;
+package pkg1Basico;
 
 import java.util.ArrayList;
 /**

@@ -1,4 +1,4 @@
-package pkg2.poo.persona;
+package pkg2POO.persona;
 
 /**
  *
