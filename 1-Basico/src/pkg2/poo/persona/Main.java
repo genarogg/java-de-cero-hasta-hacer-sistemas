@@ -1,4 +1,4 @@
-package pkg2.poo.Persona;
+package pkg2.poo.persona;
 
 import javax.swing.JOptionPane;
 /**
