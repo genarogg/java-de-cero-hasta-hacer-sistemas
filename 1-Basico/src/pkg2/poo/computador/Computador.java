@@ -5,8 +5,7 @@ package pkg2.poo.computador;
  * @author Genarogg
  */
 public class Computador {
-    public class Computador {
-	boolean Apagada;
+    boolean Apagada;
 	boolean Encendida;
 	boolean Estado;
 	
@@ -71,5 +70,63 @@ public class Computador {
 		
 		this.SistemaOperativo = SistemaOperativo;
 
+	}	
+	public double ObtenerNumeroRam() {
+		return NumeroRam;
+	}
+	public double ObtenerNumeroGrafica() {
+		return NumeroGrafica;
+	}
+	public int ObtenerNumeroProcesadores() {
+		return NumeroProcesadores;
+	}
+	public int ObtenerNumeroCornetas() {
+		return NumeroCornetas; 
+	}
+	public int ObtenerNumeroMonitores() {
+		return NumeroMonitores;
+	}
+	public int ObtenerNumeroMause() {
+		return NumeroMause;
+	}
+	public int ObtenerNumeroTeclado() {
+		return NumeroTeclado;
+	}
+	public String ObtenerModeloRam() {
+		return ModeloRam;
+	}
+	public String ObtenerModeloGrafica() {
+		return ModeloGrafica;
+	}
+	public String ObtenerModeloProcesado() {
+		return ModeloProcesador;
+	}
+	public String ObtenerModeloMonitor() {
+		return ModeloMonitor;
+	}
+	public String ObtenerModeloMause() {
+		return ModeloMause;
+	}
+	public String ObtenerModelooTeclado() {
+		return ModeloTeclado;
+	}
+	public String ObtenerSistemaOperativo() {
+		return SistemaOperativo;
+	}
+	public void ComputadoraApagada() {
+			Apagada = true;
+			System.out.println("Has apagado la Computadora");
+		}
+	public void ComputadoraEncendida() {
+		Encendida = true;
+		System.out.println("Has encendido el Computador");
+	}
+		public void Estado() {
+			if(Encendida == true) {
+				System.out.println("El computador esta encendido" );
+	}
+	if(Apagada == true) {
+		System.out.println("El computador esta apagado");
+		}
 	}
 }
