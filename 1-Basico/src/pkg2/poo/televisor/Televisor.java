@@ -37,4 +37,77 @@ public class Televisor {
         this.Apagado = Apagado;
         this.Estado = Estado;
     }
+
+    public double getPeso() {
+        return Peso;
+    }
+
+    public void setPeso(double Peso) {
+        this.Peso = Peso;
+    }
+
+    public double getAltura() {
+        return Altura;
+    }
+
+    public void setAltura(double Altura) {
+        this.Altura = Altura;
+    }
+
+    public double getResolucionAncho() {
+        return ResolucionAncho;
+    }
+
+    public void setResolucionAncho(double ResolucionAncho) {
+        this.ResolucionAncho = ResolucionAncho;
+    }
+
+    public double getResolucionAltura() {
+        return ResolucionAltura;
+    }
+
+    public void setResolucionAltura(double ResolucionAltura) {
+        this.ResolucionAltura = ResolucionAltura;
+    }
+
+    public String getMarca() {
+        return Marca;
+    }
+
+    public void setMarca(String Marca) {
+        this.Marca = Marca;
+    }
+
+    public String getColor() {
+        return Color;
+    }
+
+    public void setColor(String Color) {
+        this.Color = Color;
+    }
+
+    public boolean isEnsendido() {
+        return Ensendido;
+    }
+
+    public void setEnsendido(boolean Ensendido) {
+        this.Ensendido = Ensendido;
+    }
+
+    public boolean isApagado() {
+        return Apagado;
+    }
+
+    public void setApagado(boolean Apagado) {
+        this.Apagado = Apagado;
+    }
+
+    public boolean isEstado() {
+        return Estado;
+    }
+
+    public void setEstado(boolean Estado) {
+        this.Estado = Estado;
+    }
+    
 }
