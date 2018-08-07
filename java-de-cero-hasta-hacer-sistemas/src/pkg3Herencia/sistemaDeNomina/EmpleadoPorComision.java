@@ -30,5 +30,20 @@ public class EmpleadoPorComision extends Empleado {
         }
     }
     
+    public double obtenerTarifaComision(){
+        return tarifaComision; 
+    }
+    public void establecerVentasBrutas(double ventas){
+        if(ventas < 0.0){
+            ventasBrutas = 0.0;
+        }
+        else{
+            ventasBrutas = ventas;
+        }
+    }
+    public double obtenerVentasBrutas(){
+        return ventasBrutas;
+    }
+    
     
 }
