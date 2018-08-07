@@ -61,12 +61,5 @@ public class Main {
         for (int j = 0; j < empleados.length; j++){
             System.out.printf("El empleado %d es un %s\n", j, empleados[ j ].getClass().getName());
         }
-        
-        
-        
-    }
-    
-    }
-    
-    
+    }  
 }
