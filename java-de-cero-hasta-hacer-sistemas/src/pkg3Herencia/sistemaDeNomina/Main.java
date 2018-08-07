@@ -36,5 +36,37 @@ public class Main {
         System.out.println("Empleados procesados en forma polimórfica:");
         
         //procesa en forma genérica a cada elemento en el arreglo de empleados
+        
+        for(Empleado empleadoActual : empleados) {
+            System.out.println(empleadoActual); //invoca a toString
+            
+            if (empleadoActual instanceof EmpleadoBaseMasComision){
+                
+                //Conversión descendente de la referencia de Empleado
+                //a una referencia de EmpleadoBaseMasComision
+                EmpleadoBaseMasComision empleado =
+                        (EmpleadoBaseMasComision) empleadoActual;
+                
+                double salarioBaseAnterior = empleado.obtenerSalarioBase();
+                empleado.establecerSalarioBase(1.10 * salarioBaseAnterior);
+                
+                System.out.printf("el nuevo salario base con 10%% de aumento es : $%,.2f\n",
+                        empleado.obtenerSalarioBase());
+            }//fin del if
+            
+            System.out.printf("ingresos $%,.2f\n\n", empleadoActual.ingresos());
+        }
+        
+        //obtiene el nombre del tipo de cada objeto en el arreglo de empleados
+        for (int j = 0; j < empleados.length; j++){
+            System.out.printf("El empleado %d es un %s\n", j, empleados[ j ].getClass().getName());
+        }
+        
+        
+        
     }
+    
+    }
+    
+    
 }
