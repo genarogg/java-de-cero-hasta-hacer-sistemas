@@ -17,6 +17,7 @@ public class Window {
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         Window ventana = new Window();
     }
+}
