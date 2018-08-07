@@ -1,11 +1,11 @@
-package pkg3Herencia.PVZproyect.Main;
-
-import java.awt.Color;
-import java.awt.Graphics;
-import java.util.ArrayList;
-import java.util.Timer;
 import java.util.TimerTask;
 import javax.swing.JPanel;
+
+import objsGraficos.BalaPlata;
+import objsGraficos.BalaVerde;
+import objsGraficos.GraficosSuperClase;
+import objsGraficos.Zombie;
+
 
 /**
  *
