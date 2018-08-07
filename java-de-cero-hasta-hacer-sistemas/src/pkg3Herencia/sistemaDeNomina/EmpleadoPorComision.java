@@ -45,5 +45,16 @@ public class EmpleadoPorComision extends Empleado {
         return ventasBrutas;
     }
     
+    @Override
+    public double ingresos(){
+        return obtenerTarifaComision() * obtenerVentasBrutas();
+    }
     
+    @Override
+    public String toString(){
+        return String.format("%s: %s\n%s: $%,.2f; %s: %.2f", "empleado por comisión", 
+                super.toString(), "ventas brutas", obtenerVentasBrutas(),
+                "tarifia de comisión", obtenerTarifaComision());
+    
+    }
 }
