@@ -1,8 +1,9 @@
+package pkg3Herencia.PVZproyect.Main;
+
 import java.awt.Color;
 import java.awt.Graphics;
 import java.util.ArrayList;
 import java.util.Timer;
-
 import java.util.TimerTask;
 import javax.swing.JPanel;
 
@@ -20,7 +21,7 @@ public class VisualManager extends JPanel {
     
     public VisualManager(){
         this.setSize(500,500);
-        this.setBackground(Color.BLACK);
+        this.setBackground(Color.white);
         
         listaDeGraficos = new ArrayList<GraficosSuperClase>();
         

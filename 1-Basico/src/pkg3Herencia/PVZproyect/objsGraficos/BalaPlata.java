@@ -12,7 +12,7 @@ public class BalaPlata extends GraficosSuperClase {
     
     public BalaPlata (int x, int y){
         super(x, y);
-        icon = new ImageIcon(getClass().getResource("/imagenes/BalaPlata.png"));
+        icon = new ImageIcon(getClass().getResource("/pkg3Herencia/PVZproyect/imagenes/BalaPlata.png"));
         imgGrafica = icon.getImage();
     }
     

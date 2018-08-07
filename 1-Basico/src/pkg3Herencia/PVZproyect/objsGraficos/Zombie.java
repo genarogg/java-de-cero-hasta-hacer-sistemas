@@ -8,11 +8,12 @@ import javax.swing.ImageIcon;
  *
  * @author Genarogg
  */
+
 public class Zombie extends GraficosSuperClase {
     public Zombie(int x, int y){
         super(x, y);
         
-        icon = new ImageIcon(getClass().getResource("/imagenes/Zombie.jpg"));
+        icon = new ImageIcon(getClass().getResource("/pkg3Herencia/PVZproyect/imagenes/Zombie.jpg"));
         imgGrafica = icon.getImage();
     }
     

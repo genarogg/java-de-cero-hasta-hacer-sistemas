@@ -12,7 +12,7 @@ import javax.swing.ImageIcon;
 public class BalaVerde extends GraficosSuperClase {
     public BalaVerde(int x, int y){
         super(x, y);
-        icon = new ImageIcon(getClass().getResource("/imagenes/BalaVerde.png"));
+        icon = new ImageIcon(getClass().getResource("/pkg3Herencia/PVZproyect/imagenes/BalaVerde.png"));
         imgGrafica = icon.getImage();
     }
     
