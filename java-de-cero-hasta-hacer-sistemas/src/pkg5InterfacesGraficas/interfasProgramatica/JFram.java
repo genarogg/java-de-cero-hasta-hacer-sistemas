@@ -9,13 +9,14 @@ public class JFram  {
         JLabel etiqueta = new JLabel();
         JFrame f = new JFrame();
         
-        etiqueta.setBounds(200,200,50,20);
-        etiqueta.setIcon(new ImageIcon("1.jpg"));
+        etiqueta.setBounds(200,100,50,20);
+        etiqueta.setIcon(new ImageIcon("src/pkg5InterfacesGraficas/img/1.jpg"));
         
-        f.setBounds(200,200,400,400);
+        
         f.add(etiqueta);
         f.setVisible(true);        
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.pack();
     }
     public static void main(String[]args){
         JFram f =new JFram();
