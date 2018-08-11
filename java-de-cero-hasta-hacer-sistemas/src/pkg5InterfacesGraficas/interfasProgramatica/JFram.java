@@ -1,4 +1,4 @@
-package interfasProgramatica;
+package pkg5InterfacesGraficas.interfasProgramatica;
 
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
@@ -12,10 +12,10 @@ public class JFram  {
         etiqueta.setBounds(200,200,50,20);
         etiqueta.setIcon(new ImageIcon("1.jpg"));
         
+        f.setBounds(200,200,400,400);
         f.add(etiqueta);
         f.setVisible(true);        
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        f.pack();
     }
     public static void main(String[]args){
         JFram f =new JFram();
