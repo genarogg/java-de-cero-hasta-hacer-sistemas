@@ -14,8 +14,8 @@ import javax.swing.JFrame;
 public class JButtonClass {
     public JButtonClass(){
         JFrame jF = new JFrame();
-        JButton jB = new JButton("XJ9", new ImageIcon(getClass().getResource("xj9.jpg")));
-        
+        JButton jB = new JButton("XJ9", new ImageIcon(getClass().getResource("/xj9.jpg")));
+//        JButton jB = new JButton("XJ9", new ImageIco)
         String hola = jB.getText();
         
         System.out.println(hola);
