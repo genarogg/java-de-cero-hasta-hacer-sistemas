@@ -5,6 +5,11 @@ import java.awt.Toolkit;
 import javax.swing.JFrame;
 import javax.swing.JToggleButton;
 
+/**
+ *
+ * @author Genarogg
+ */
+
 public class JToggleButtonClass {
     
     public JToggleButtonClass(){
