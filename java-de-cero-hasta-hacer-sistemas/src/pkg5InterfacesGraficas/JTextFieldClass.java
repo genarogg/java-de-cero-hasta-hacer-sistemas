@@ -5,6 +5,11 @@ import java.awt.Toolkit;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
 
+/**
+ *
+ * @author Genarogg
+ */
+
 public class JTextFieldClass {
     public JTextFieldClass(){
         JFrame jF = new JFrame();
