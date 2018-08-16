@@ -1,4 +1,4 @@
-package pkg6Modelos;
+package pkg6Modelos.defaultTableModelClass;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;
