@@ -37,4 +37,13 @@ public class BoxLayoutClass {
         panelMedio.add(contraseña);
         panelMedio.add(campoContraseña);
     }
+    
+    public void ConstruccionDePanelInferior(){
+        panelInferior = new JPanel();
+        botonAceptar = new JButton("Aceptar");
+        botonCancelar = new JButton("Cancelar");
+        panelInferior.setLayout(new FlowLayout());
+        panelInferior.add(botonAceptar);
+        panelInferior.add(botonCancelar);
+    }
 }
