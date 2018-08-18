@@ -1,5 +1,14 @@
 package pkg7Layout;
 
+import java.awt.FlowLayout;
+import javax.swing.JButton;
+import javax.swing.BoxLayout;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
 /**
  *
  * @author Genarogg
@@ -18,5 +27,14 @@ public class BoxLayoutClass {
         panelSuperior.setLayout(new FlowLayout());
         panelSuperior.add(nombre);
         panelSuperior.add(campoUsuario);
+    }
+    
+    public void construccionDePanelMedio(){
+        panelMedio = new JPanel(); 
+        contraseña = new JLabel("Contraseña:");
+        campoContraseña = new JPasswordField(10);
+        panelMedio.setLayout(new FlowLayout());
+        panelMedio.add(contraseña);
+        panelMedio.add(campoContraseña);
     }
 }
