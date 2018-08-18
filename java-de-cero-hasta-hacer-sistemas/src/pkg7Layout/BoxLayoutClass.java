@@ -13,7 +13,7 @@ import javax.swing.JTextField;
  *
  * @author Genarogg
  */
-public class BoxLayoutClass {
+public class BoxLayoutClass extends JFrame {
     private JPanel panelSuperior, panelMedio,panelInferior;
     private JLabel nombre, contraseña,titulo;
     private JTextField campoUsuario;
@@ -28,7 +28,6 @@ public class BoxLayoutClass {
         panelSuperior.add(nombre);
         panelSuperior.add(campoUsuario);
     }
-    
     public void construccionDePanelMedio(){
         panelMedio = new JPanel(); 
         contraseña = new JLabel("Contraseña:");
@@ -37,7 +36,6 @@ public class BoxLayoutClass {
         panelMedio.add(contraseña);
         panelMedio.add(campoContraseña);
     }
-    
     public void ConstruccionDePanelInferior(){
         panelInferior = new JPanel();
         botonAceptar = new JButton("Aceptar");
@@ -46,4 +44,26 @@ public class BoxLayoutClass {
         panelInferior.add(botonAceptar);
         panelInferior.add(botonCancelar);
     }
+    public BoxLayoutClass() {
+        titulo = new JLabel("LOGIN");
+        
+        construccionDePanelSuperior();
+        construccionDePanelMedio();
+        ConstruccionDePanelInferior();
+        
+        this.setLayout(new BoxLayout(this.getContentPane(), BoxLayout.Y_AXIS));
+        
+        this.add(titulo);
+        this.add(panelSuperior);
+        this.add(panelMedio);
+        this.add(panelInferior);
+        
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setVisible(true);
+        this.pack(); 
+    }
+    public static void main(String[] args) {
+        new BoxLayoutClass();
+    }   
 }
+
