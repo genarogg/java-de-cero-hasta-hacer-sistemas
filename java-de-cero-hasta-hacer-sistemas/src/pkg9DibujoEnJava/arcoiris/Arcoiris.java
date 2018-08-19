@@ -18,5 +18,24 @@ public class Arcoiris extends JPanel {
     public Arcoiris(){
         setBackground(Color.WHITE);
     }
-     
+    @Override
+    public void paintComponent(Graphics g){
+        super.paintComponents(g);
+        
+        int radio = 20;
+        
+        int centroX = getWidth() / 2;
+        int centroY = getHeight() - 10;
+        
+        for(int contador = colores.length; contador > 0; contador--){
+            g.setColor(colores[contador - 1]);
+            
+            int valorX = centroX - contador * radio;
+            int valorY = centroY - contador * radio;
+            int ancho = contador * radio * 2;
+            int alto = contador * radio * 2;
+            
+            g.fillArc(valorX, valorY, ancho, alto, 0, 180);
+        }
+    }    
 }
