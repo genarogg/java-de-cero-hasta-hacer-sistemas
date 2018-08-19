@@ -11,6 +11,7 @@ import javax.swing.JTextField;
  *
  * @author Genarogg
  */
+
 public class EventosDelTeclado {
     public EventosDelTeclado(){
         JFrame jF = new JFrame();
