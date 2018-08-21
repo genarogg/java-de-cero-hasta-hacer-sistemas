@@ -22,4 +22,24 @@ public class EmpleadoPorHoras extends Empleado{
     public double obtenerSueldo(){
         return sueldo;
     }
+    
+    public void establecerSueldo(double su){
+        if(su < 0.0){
+            sueldo = 0.0;
+        }
+        else{
+            sueldo = su;
+        }
+    }
+    public double obtenerHoras(){
+        return horas;
+    }
+    public void establecerHoras(double h){
+        if(( h >= 0) && (h <= 168)){
+            horas = h;
+        } 
+        else{
+            horas = 0;
+        }
+    }
 }
