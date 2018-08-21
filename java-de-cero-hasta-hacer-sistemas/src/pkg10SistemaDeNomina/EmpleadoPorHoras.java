@@ -42,4 +42,18 @@ public class EmpleadoPorHoras extends Empleado{
             horas = 0;
         }
     }
+    @Override
+    public double ingresos(){
+        if(obtenerHoras() <= 40){
+            return obtenerSueldo() * obtenerHoras(); 
+        }
+        else{
+          return  40 * obtenerSueldo() + (obtenerHoras() - 40) * obtenerSueldo() * 1.5;
+        }
+    }
+    @Override
+    public String toString(){
+        return String.format("empleado por horas: %s\n%s: $%,.2f; %s: %,.2f", super.toString(), "sueldo por hora", obtenerSueldo(), "horas trabajadas",
+                obtenerHoras());
+    }
 }
