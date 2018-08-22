@@ -26,5 +26,25 @@ public class PruebaSistemasNomina {
         empleados[1] = empleadoPorHoras;
         empleados[2] = empleadoPorComision;
         empleados[3] = empleadoBaseMasComision;
+        
+        System.out.println("Empleados de forma polimorfica: ");
+        
+        for(Empleado empleadoActual : empleados){
+            System.out.println(empleadoActual);
+            
+            if(empleadoActual instanceof EmpleadoBaseMasComision){
+                EmpleadoBaseMasComision empleado = (EmpleadoBaseMasComision) empleadoActual;
+                
+                double salarioBaseAnterior = empleado.obtenerSalarioBase();
+                empleado.establecerSalarioBase(1.10 * salarioBaseAnterior);
+                
+                System.out.printf("el nuevo salario base con 10%% de aumento es : $%, .2f\n", empleado.obtenerSalarioBase());
+            }
+            System.out.printf("ingresos $%, .2f\n\n",empleadoActual.ingresos());
+        }
+        for(int j = 0; j < empleados.length; j++){
+            System.out.printf("el empleado %d es un %s\n", j,empleados[j].getClass().getName());
+        }
     }
+   
 }
