@@ -8,6 +8,7 @@ import javax.swing.JPanel;
  *
  * @author Genarogg
  */
+
 public class Arcoiris extends JPanel {
     private final static Color VIOLETA = new Color(128, 0, 128);
     private final static Color INDIGO = new Color(75, 0, 130);

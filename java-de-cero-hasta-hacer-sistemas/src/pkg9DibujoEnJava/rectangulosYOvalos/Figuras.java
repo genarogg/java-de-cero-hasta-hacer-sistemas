@@ -7,6 +7,7 @@ import javax.swing.JPanel;
  *
  * @author Genarogg
  */
+
 public class Figuras extends JPanel {
     
     private int opcion;

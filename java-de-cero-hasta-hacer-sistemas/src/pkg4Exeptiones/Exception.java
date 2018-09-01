@@ -7,6 +7,7 @@ import java.util.Scanner;
  *
  * @author Genarogg
  */
+
 public class Exception {
 
     public static int contiene(int numerador, int denominador)throws ArithmeticException{

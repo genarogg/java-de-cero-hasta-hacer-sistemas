@@ -4,6 +4,7 @@ package pkg4Exeptiones;
  *
  * @author Genarogg
  */
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
