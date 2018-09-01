@@ -1,9 +1,14 @@
-package JTextArea;
+package pkg5InterfacesGraficas;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import javax.swing.JFrame;
 import javax.swing.JTextArea;
+
+/**
+ *
+ * @author Genarogg
+ */
 
 public class JTextAreaClass {
     public JTextAreaClass(){

@@ -5,6 +5,11 @@ import java.awt.Toolkit;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 
+/**
+ *
+ * @author Genarogg
+ */
+
 public class JComboBoxClass {
     public JComboBoxClass(){
         JFrame jF = new JFrame("JComboBoxClass"); 

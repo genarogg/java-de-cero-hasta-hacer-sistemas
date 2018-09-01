@@ -4,6 +4,11 @@ import javax.swing.ButtonGroup;
 import javax.swing.JFrame;
 import javax.swing.JRadioButton;
 
+/**
+ *
+ * @author Genarogg
+ */
+
 public class JRadioButtonClass {
     
     public JRadioButtonClass(){

@@ -6,6 +6,11 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
+/**
+ *
+ * @author Genarogg
+ */
+
 public class JLabelClass {
     public JLabelClass(){
         JFrame jF = new JFrame();
