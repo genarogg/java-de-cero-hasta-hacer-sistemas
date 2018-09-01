@@ -4,6 +4,7 @@ package pkg1Basico;
  *
  * @author Genarogg
  */
+
 public class OperacionesString {
     public static void main(String[]args){
         String a = "Hola Mundo";

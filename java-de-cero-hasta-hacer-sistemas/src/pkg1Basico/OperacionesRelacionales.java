@@ -4,6 +4,7 @@ package pkg1Basico;
  *
  * @author Genarogg
  */
+
 public class OperacionesRelacionales {
     public static void main(String[]args){
         int x = 0;

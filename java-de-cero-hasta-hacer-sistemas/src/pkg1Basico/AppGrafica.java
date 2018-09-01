@@ -6,6 +6,7 @@ import javax.swing.JOptionPane;
  *
  * @author Genarogg
  */
+
 public class AppGrafica {
     public AppGrafica(){
     

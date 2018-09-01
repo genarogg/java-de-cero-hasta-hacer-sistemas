@@ -4,6 +4,7 @@ package pkg1Basico;
  *
  * @author Genarogg
  */
+
 public class ModificadoresDeAcceso {
     
     public String a = "Hey, como estas";

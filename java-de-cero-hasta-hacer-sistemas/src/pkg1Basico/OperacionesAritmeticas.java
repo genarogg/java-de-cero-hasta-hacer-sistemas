@@ -6,6 +6,7 @@ import java.util.Scanner;
  *
  * @author Genarogg
  */
+
 public class OperacionesAritmeticas {
     public OperacionesAritmeticas(){
     }

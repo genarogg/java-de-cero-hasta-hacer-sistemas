@@ -1,11 +1,11 @@
 package pkg1Basico;
 
 import java.util.ArrayList;
+
 /**
  *
  * @author Genarogg
  */
-
 
 public class ArrayLista {
      public static void main(String[]args){

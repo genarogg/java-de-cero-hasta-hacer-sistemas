@@ -4,6 +4,7 @@ package pkg1Basico;
  *
  * @author Genarogg
  */
+
 public class Booleanos {
     
 public static void main(String[]args){
