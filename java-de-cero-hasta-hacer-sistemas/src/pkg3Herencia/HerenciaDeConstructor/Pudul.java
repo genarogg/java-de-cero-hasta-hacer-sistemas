@@ -4,6 +4,7 @@ package pkg3Herencia.HerenciaDeConstructor;
  *
  * @author Genarogg
  */
+
 public class Pudul extends Perro {
         public Pudul(){
         System.out.println("Constructor Pudul");

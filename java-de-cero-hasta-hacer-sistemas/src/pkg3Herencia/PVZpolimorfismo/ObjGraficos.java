@@ -4,6 +4,7 @@ package pkg3Herencia.PVZpolimorfismo;
  *
  * @author Genarogg
  */
+
 public class ObjGraficos {
     protected ObjGraficos () {
             
