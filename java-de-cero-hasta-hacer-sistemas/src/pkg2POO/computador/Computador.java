@@ -4,6 +4,7 @@ package pkg2POO.computador;
  *
  * @author Genarogg
  */
+
 public class Computador {
     private boolean Apagada;
     private boolean Encendida;
@@ -122,10 +123,10 @@ public class Computador {
         System.out.println("Has encendido el Computador");
     }
     public void Estado() {
-        if(Encendida == true) {
+        if(Encendida) {
             System.out.println("El computador esta encendido" );
         }
-        if(Apagada == true) {
+        if(Apagada) {
             System.out.println("El computador esta apagado");
         }
     }

@@ -4,6 +4,7 @@ package pkg2POO.televisor;
  *
  * @author Genarogg
  */
+
 public class Televisor {
     private double Peso,Altura,ResolucionAncho,ResolucionAltura;
     private String Marca,Color;

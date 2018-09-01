@@ -1,11 +1,11 @@
 package pkg2POO.persona;
 
 import javax.swing.JOptionPane;
+
 /**
  *
  * @author Genarogg
  */
-
 
 public class Main {
     public static void main(String[]args){
